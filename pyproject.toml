@@ -25,10 +25,12 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 dependencies = [
+    "napari",
     "numpy",
     "magicgui",
     "qtpy",
     "scikit-image",
+    "openslide-python",
 ]
 
 [project.optional-dependencies]
